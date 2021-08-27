@@ -1,6 +1,7 @@
 import React from "react";
+import { Container } from "./style";
 
 const Home = () => 
-    <div>Hello Word!</div>;
+    <Container>Hello Word</Container>
 
     export default Home;
