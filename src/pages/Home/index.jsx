@@ -1,7 +1,13 @@
 import React from "react";
-import { Container } from "./style";
+
+import logo from '../../assets/logo.svg';
+import { Container, Search } from "./style";
 
 const Home = () => 
-    <Container>Hello Word</Container>
+    <Container>
+        <Search>
+            <img src={logo} alt= "Logo do Restaurante"/>
+        </Search>
+    </Container>
 
     export default Home;
