@@ -11,3 +11,5 @@ const theme = {
 };
 
 export default theme;
+
+// Utilizado para definir um tema geral para o projeto, as paginas irão receber estas configurações via props.
