@@ -1,3 +1,4 @@
+import Slider from 'react-slick';
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
@@ -29,6 +30,12 @@ export const Map = styled.div`
     background-color: red;
     width: 500px;
 `;
+export const Carousel = styled(Slider)`// estilizando o componente  Slider do react Slick, para estilizar um componente é preciso colocalo entre parenteses.
+    .slick-slide{
+        margin-right:16px;
+    }
+    
+`;
 
 export const CarouselTitle = styled.h1`
     font-family: ${(props) => props.theme.fonts.regular} ;
@@ -37,4 +44,6 @@ export const CarouselTitle = styled.h1`
     font-weight: bold;
     line-height: 29px;
     margin: 16px 0;
+
 `;
+
