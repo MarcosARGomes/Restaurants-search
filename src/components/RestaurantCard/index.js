@@ -1,7 +1,8 @@
 import React from "react";
 import ReactStars from "react-rating-stars-component";
+import restaurante from '../../assets/restaurante-fake.png'
 
-import { Restaurant, RestaurantInfo, Title, Address  } from './styles';
+import { Restaurant, RestaurantInfo, Title, Address, RestaurantPhoto  } from './styles';
 
 const RestaurantCard = () => {
 return(
@@ -17,6 +18,8 @@ return(
             />
             <Address>Rua Rio de Janeiro 120</Address>
         </RestaurantInfo>
+        
+        <RestaurantPhoto src={restaurante} alt = "foto do restaurante"/>
     </Restaurant>
     );
 };
