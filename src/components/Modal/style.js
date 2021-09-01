@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const overlay = styled.div`
+export const Overlay = styled.div`
     position: fixed;
     top: 0;
     right: 0;
@@ -26,7 +26,7 @@ export const Dialog = styled.div `
     max-height: calc(100% - 144px);
     width: 500px;
     padding:24px;
-    background-color: Fffffff;
+    background-color: #ffffff;
     box-shadow: 0px 0px 32px rgba(78, 89, 131, 0.2);
     border-radius:8px;
 `;
