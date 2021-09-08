@@ -5,9 +5,9 @@ import MaterialIcon from '@material/react-material-icon';
 
 import logo from '../../assets/logo.svg';
 import restaurante from '../../assets/restaurante-fake.png'
-import { Card, RestaurantCard, Modal } from '../../components'
+import { Card, RestaurantCard, Modal, Map } from '../../components'
 
-import { Container, Search, Logo, Wrapper, Map, CarouselTitle, Carousel } from './style';
+import { Container, Search, Logo, Wrapper, CarouselTitle, Carousel } from './style';
 
 const Home = () => {
     const [inputValue, setInputValue] = useState('');

@@ -18,7 +18,6 @@ return(
             />
             <Address>Rua Rio de Janeiro 120</Address>
         </RestaurantInfo>
-        
         <RestaurantPhoto src={restaurante} alt = "foto do restaurante"/>
     </Restaurant>
     );
