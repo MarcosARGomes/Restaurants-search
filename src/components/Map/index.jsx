@@ -15,7 +15,7 @@ export const MapContainer = (props) => {
         };
 
         service.nearbySearch(request, (results, status) => {
-            if(status === google.maps.places.PlacesService.OK){
+            if(status === google.maps.places.PlacesServiceStatus.OK){
                 console.log('restaurants>>>', results);
             }
         });
